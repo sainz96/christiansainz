@@ -1,0 +1,140 @@
+html{
+    overflow-x: hidden!important;
+    width:100%!important;
+}
+
+html, body {
+    height:100%!important;
+    position:relative!important;
+}
+
+html, body, #wrapper {
+    width:100%!important;
+    min-height: 100%!important;
+}
+
+.navBar button{
+    text-decoration: none!important;
+    background-color:#ffffff!important;
+    border: none!important;
+    width:100%!important;
+    margin:0!important;
+    padding:0!important;
+}
+
+.bg-red{
+    border:1px dotted #773100;
+    background-color:#F72331;
+}
+.bg-blue{
+    border:1px dotted #094863;
+    background-color: #14A1DE;
+}
+.bg-yellow{
+    border:1px dotted #C79916;
+    background-color: #FFC21C;
+}
+.bg-green{
+    border:1px dotted #0D4A21;
+    background-color: #2AE866;
+}
+.bg-orange{
+    border:1px dotted #783C00;
+    background-color: #FF8000;
+}
+.bg-purple{
+    border:1px dotted #481A63;
+    background-color: #B641FA;
+}
+
+.bg-gray{
+    border:1px dashed grey;
+    background-color: #DBDBDB; 
+}
+
+.btns-red button:hover{
+    color:  #E01B14!important;
+}
+
+.btns-red button:focus{
+    color:  #E01B14!important;
+    font-weight:600!important;
+}
+
+.btns-orange button:hover{
+    color:  #FF7400!important;
+}
+
+.btns-orange button:focus{
+    color:  #FF7400!important;
+    font-weight:600!important;
+}
+
+.btns-yellow button:hover{
+    color:  #ECAF1F!important;
+}
+
+.btns-yellow button:focus{
+    color:  #ECAF1F!important;
+    font-weight:600!important;
+}
+
+.btns-green button:hover{
+    color:  #008717!important;
+}
+
+.btns-green button:focus{
+    color:  #008717!important;
+    font-weight:600!important;
+}
+
+.btns-blue button:hover{
+    color:  #3965F7!important;
+}
+
+.btns-blue button:focus{
+    color:  #3965F7!important;
+    font-weight:600!important;
+}
+
+.btns-purple button:hover{
+    color:  #7D1CFA!important;
+}
+
+.btns-purple button:focus{
+    color:  #7D1CFA!important;
+    font-weight:600!important;
+}
+
+.super-center{
+  display: grid;
+  place-items: center;
+  height:60vh;
+}
+
+.sidebar-layout{
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+/*  height:flex-end!important;*/
+  height:60vh;
+}
+
+.heading{
+    top:0;
+    position: fixed!important;
+    background-color:white!important;
+}
+
+.navBar{
+    padding-top:10px!important;
+}
+
+.navBtn{
+    font-size:16px!important;
+}
+
+.navBtn button:hover{
+    font-weight:600;
+}
+
+
