@@ -250,12 +250,14 @@ li{
     
     .name{
         float:left!important;
-         padding-left:10px!important;
+         padding-left:15px!important;
     }
     
+/*
     h1{
-        font-size:18px!important;
+        font-size:24px!important;
     }
+*/
     
      .logo img{
    
