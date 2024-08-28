@@ -50,9 +50,6 @@ li{
     background-color: #DBDBDB;
 }
 
-.float-right{
-    float:right!important;
-}
 
 .transparentBG{
     background-color: rgba(0, 0, 0, 0.5);
@@ -94,6 +91,7 @@ li{
 .photo-cred{
     float:right!important;
     font-size: 10px!important;
+    margin-right:20px!important;
 }
 
 .text-a{
@@ -106,15 +104,18 @@ li{
 }
 
 .workCard{
+    top:0!important;
+    object-position: top!important;
+     padding-top: 0!important;
     margin-top: 0!important;
     margin-left:4.1%!important;
     margin-right:4.1%!important;
-    height: 100%!important;
+    height: stretch!important;
     border: 1px solid grey;
     border-radius: 10px;
 }
 
-.image{
+.image1{
     background-image: url('pexels-picjumbo-com-55570-196644.jpg');
     background-size:     cover;
     background-repeat:   no-repeat;
@@ -186,4 +187,77 @@ li{
     opacity: 1;
   }
 }
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 500px){
+    .float-right{
+    float:right!important;
+    }
+}
+
+
+@media screen and (max-width: 840px){
+    .transparentBG{
+        width:100%!important;
+        margin-left:0!important;
+    }
+    
+    .ghostCol1{
+        width:0%!important;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .navBar{
+        width:0!important;
+        display:none!important;
+    }
+    
+     .name{
+         width:70%!important;
+    }
+    
+    .logo{
+         width:30%!important;
+    }
+}
+
+@media screen and (max-width: 499px){
+    
+    .name{
+        float:left!important;
+         padding-left:10px!important;
+    }
+    
+     .logo img{
+   
+         padding-right:2px!important;
+    }
+}
+
+@media screen and (max-width: 475px){
+       .transparentBG{
+           margin-bottom:0!important;
+           margin-left:5px!important;
+           margin-right:5px!important;
+    }
+    
+    .introTitle{
+         padding-left:8px!important;
+         padding-right:8px!important;
+    }
+    
+    .introMess{
+         padding-left:8px!important;
+         padding-right:8px!important;
+    }
+    
+    #intro{
+        height: 75vh!important;
+    }
+    
+ }
+
 
