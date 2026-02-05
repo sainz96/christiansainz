@@ -1,16 +1,38 @@
+/*
 html{
     overflow-x: hidden!important;
     width:100%!important;
 }
+*/
 
+/*
 html, body {
     height:100%!important;
     position:relative!important;
 }
+*/
 
+/*
 html, body, #wrapper {
     width:100%!important;
     min-height: 100%!important;
+}
+*/
+
+/* A basic CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding/border are included in element's total width/height */
+}
+
+/* Specific elements might also need adjustment */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;/* Can help with full-page layouts */
+    min-height: 100vh;
+  overflow-x: hidden; /* Prevents horizontal scroll/space issues */
 }
 
 .text-white{
