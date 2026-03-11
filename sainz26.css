@@ -420,6 +420,44 @@ background-repeat: no-repeat;
     scroll-snap-align: center;
 }
 
+.uiMock{
+    background: url(ui_mockup_1.png);
+    background-size: contain;
+    background-repeat:no-repeat ;
+    height: 60vh;
+}
+
+.gameUI-bg1{
+    background: url(jungBloc_phoneMock.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 100vh;  
+
+}
+
+.gameUI-bg2{
+    background: url(jungBloc_assets.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 90vh;  
+
+}
+
+.gameUI-bg3{
+    background: url(mobile_UI_adds.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 70vh;  
+
+}
+
+.mobGame-UI-copy{
+        padding-top: 80px!important;
+}
+
 /*SCROLL BAR*/
 
 /* width */
@@ -1172,6 +1210,28 @@ transition-duration: 0.5s;
       h5{
         font-size: 20px!important;
     }
+
+    .gameUI-bg1{
+
+    height: 70vh;  
+
+}
+
+.gameUI-bg2{
+
+    height: 70vh;  
+
+}
+
+.gameUI-bg3{
+
+    height: 50vh;  
+
+}
+
+.mobGame-UI-copy{
+        padding-top: 30px!important;
+}
 }
 
 @media screen and (max-width: 950px){
@@ -1197,6 +1257,29 @@ transition-duration: 0.5s;
         height:0;
          width:0;
     }
+
+        .gameUI-bg1{
+
+    height: 50vh;  
+
+}
+
+.gameUI-bg2{
+
+    height: 50vh;  
+
+}
+
+.gameUI-bg3{
+
+    height: 50vh;  
+     
+
+}
+
+.mobGame-UI-copy{
+        padding-top: 10px!important;
+}
 }
 
 @media screen and (max-width: 700px){
