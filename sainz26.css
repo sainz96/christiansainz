@@ -428,7 +428,7 @@ background-repeat: no-repeat;
 }
 
 .gameUI-bg1{
-    background: url('jungBloc_phoneMock.jpeg');
+    background: url('jungBloc_phoneMock.jpg');
     background-size: contain;
     background-position:center;
     background-repeat:no-repeat ;
@@ -437,7 +437,7 @@ background-repeat: no-repeat;
 }
 
 .gameUI-bg2{
-    background: url('jungBloc_assets.jpeg');
+    background: url('jungBloc_assets.jpg');
     background-size: contain;
     background-position:center;
     background-repeat:no-repeat ;
@@ -446,7 +446,7 @@ background-repeat: no-repeat;
 }
 
 .gameUI-bg3{
-    background: url('mobile_UI_adds.jpeg');
+    background: url('mobile_UI_adds.jpg');
     background-size: contain;
     background-position:center;
     background-repeat:no-repeat ;
