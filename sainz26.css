@@ -427,6 +427,45 @@ background-repeat: no-repeat;
     height: 60vh;
 }
 
+.webUI-bg1{
+     background: url('SC_MockSample_Mobile_light.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 100vh;  
+}
+
+.webUI-bg2{
+     background: url('SC_MockSample_Mobile_dark.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 100vh;  
+}
+
+.webUI-bg3{
+     background: url('SC_MockSample_Tablet.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 100vh;  
+}
+
+.webUI-bg4{
+     background: url('SC_MockSample_Desktop.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 60vh;  
+}
+.webUI-bg5{
+     background: url('SC_MockSample_Notes.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 60vh;  
+}
+
 .gameUI-bg1{
     background: url('jungBloc_phoneMock.jpg');
     background-size: contain;
