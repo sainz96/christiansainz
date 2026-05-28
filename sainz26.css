@@ -89,6 +89,10 @@ li{
    font-family: 'Oleo Script', sans-serif; 
 }
 
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+
 h5 {
    font-family: 'Oleo Script', sans-serif;
     font-size: 30px!important;
@@ -460,6 +464,30 @@ background-repeat: no-repeat;
 }
 .webUI-bg5{
      background: url('SC_MockSample_Notes.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 60vh;  
+}
+
+.webUI-bg6{
+     background: url('uiMock_2A.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 60vh;  
+}
+
+.webUI-bg7{
+     background: url('uiMock_2B.JPG');
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 80vh;  
+}
+
+.webUI-bg8{
+     background: url('uiMock_2C.JPG');
     background-size: contain;
     background-position:center;
     background-repeat:no-repeat ;
